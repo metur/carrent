@@ -1,0 +1,30 @@
+{
+  "name": "carrent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-run-cucumber": "cypress run --config-file cypress/cypress-cucumber.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metur/carrent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metur/carrent/issues"
+  },
+  "homepage": "https://github.com/metur/carrent#readme",
+  "dependencies": {
+    "cosmiconfig": "^7.0.0",
+    "cucumber": "^7.0.0-rc.0",
+    "cypress": "^7.1.0",
+    "cypress-cucumber-preprocessor": "^4.0.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

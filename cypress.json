@@ -1,0 +1,4 @@
+{
+    "baseUrl": "http://qalab.pl.tivixlabs.com/",
+    "testFiles": "**/*.feature"
+}
